@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>index</title>
+</head>
+<body>
+
+    <!-- 네비게이션 바-->
+    <nav class="nav-body">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>            
+        </label>
+        <label class="logo">Self Intro</label>
+
+        <ul>
+            <li><a class="active" href="#body1">Home</a></li>
+            <li><a href="#body2">About</a></li>
+            <li><a href="#body3">ToDo</a></li>
+            <li><a href="">Career</a></li>
+        </ul>
+    </nav>
+
+    <!--사진-->
+    <a name="body1"></a>
+    <div class="picpic"></div>
+
+
+    <div class="profile">
+        <div class="profile-header">
+            <h4 style="font-size: 40px;">김건우</h4>
+            <div class="name">
+                who will be
+                <div class="name-job">
+                    <ul class="name-job-list">
+                        <li>Creative</li>
+                        <li>logical</li>
+                        <li>analytical</li>
+                        <li>Back-end</li>
+                        <li>Creative</li>
+                    </ul>
+                </div> 
+                <h1 class="name-title">Developer</h1>
+            </div>
+
+            <p><br>아이디어를 직접 만들어 낼 수 있다는 매력에 프로그래밍에 도전하게 되었습니다.<br>
+                새로운 분야에 도전하는 만큼 두려움도 있지만, 도전하는 즐거움도 함께 합니다.<br>
+                   </p>
+            <div class="icons"> 
+                <a class="velog" href="https://velog.io/@geonoo99"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--카드-->
+    <a name="body2"></a>
+    <div class="card-body" name="body2">
+    <div class="container">
+        <div><br><br><br></div>
+        <div style="font-size: 40px; color: white;">My Favorite</div>
+        <div class="card">
+            <div class="imgBx" data-text="Sport">
+                <img src="cov_img/sport.jpg">                
+            </div>
+            <div class="content">
+                <div>
+                    <h3>농구</h3>
+                    <p>모든 스포츠를 다 좋아하지만, 농구를 특히 좋아합니다! 운동하는 거라면 다 좋아해서, 나중에 같이 운동하면 좋겠습니다^^</p>
+                    <a href="#">♥</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx" data-text="Puppy">
+                <img src="cov_img/puppy.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h3>푸들</h3>
+                    <p>집에서 귀여운 푸들을 키우고 있습니다~! <br>강아지를 좋아합니다^^</p>
+                    <a href="#">♥</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx" data-text="Place">
+                <img src="cov_img/mar.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h3>바다</h3>
+                    <p>여행가는 것을 좋아합니다! 특히 바다로 놀러가는 것을 좋아합니다~. 가끔씩 feel이 오면 급 바다로 드라이빙을 떠납니다ㅋㅋ</p>
+                    <a href="#">♥</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx" data-text="Goal">
+                <img src="cov_img/computer.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h3>백엔드 개발자</h3>
+                    <p>2020년 꼭 이루고 싶은 목표중에 하나로, 벡엔드 개발자로서 커리어 시작을 하고 싶습니다! 열심히 공부해서 목표를 이뤘으면 좋겠습니다!</p>
+                    <a href="#">♥</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!--To do 리스트-->
+<a name="body3"></a>
+<div class="todobody">
+<div style="text-align: center; color: white; font-size: 30px;"><br><br><br>To Do List</div>
+    <div class="todoList">
+        <div class="cover-img">
+            <div class="cover-inner">
+                <h3>Plan</h3>
+            </div>
+        </div>
+        <div class="content1">
+            <form class="add">
+                <input type="text" name="add" placeholder="Write">
+                <div class="input-buttons">
+                    <a href="#0" class="add-todo">
+                        <i class="fas fa-plus add"></i>
+                    </a>
+                </div>
+            </form>   
+
+                <ul class="todos">
+                    <li>
+                        <input type="checkbox" id="todo_1">
+                        <label for="todo_1">
+                            <span class="check"></span>
+                            예시
+                        </label>
+                        <i class="far fa-trash-alt delete"></i>
+                    </li>
+    
+                    <li>
+                        <input type="checkbox" id="todo_2">
+                        <label for="todo_2">
+                            <span class="check"></span>
+                            예시
+                        </label>
+                        <i class="far fa-trash-alt delete"></i>
+                    </li>
+    
+                    <li>
+                        <input type="checkbox" id="todo_3">
+                        <label for="todo_3">
+                            <span class="check"></span>
+                            예시
+                        </label>
+                        <i class="far fa-trash-alt delete"></i>
+                    </li>
+    
+                    <li>
+                        <input type="checkbox" id="todo_4">
+                        <label for="todo_4">
+                            <span class="check"></span>
+                            예시
+                        </label>
+                        <i class="far fa-trash-alt delete"></i>
+                    </li>
+                </ul>
+        
+
+
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+
+
+
+    
+</body>
+</html>
